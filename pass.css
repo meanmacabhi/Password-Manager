@@ -1,0 +1,40 @@
+
+* { margin: 0;
+    padding: 0;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+ 
+.nav{
+    background: linear-gradient(135deg, purple,blue);
+    color: white;
+    padding-top: 10px;
+    padding-bottom:10px;
+    
+}
+.nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+ul li{
+    list-style: none; 
+    font-size: larger; 
+    cursor:pointer ;
+}
+ul li:hover{
+    color:goldenrod;
+    
+}
+table,tr,td,th{
+    border: 2px solid black;
+    border-collapse:collapse;
+    padding: 20px ;
+}
+.container{
+    max-width: 80vw;
+    margin:5px auto;
+}
+#username:hover,#password:hover{
+    border-color: gold;
+}
